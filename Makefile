@@ -7,7 +7,7 @@
 # The name of container image
 COMPOSE_PROJECT_NAME = personal-blog
 # Available platforms: linux/amd64 | linux/arm64/v8 | linux/x86_64 | linux/arm/v7
-PLATFORM = linux/amd64
+PLATFORM = linux/arm64/v8
 
 DEV_VOLUME = \
 	-v $(DIR):/app \
@@ -35,9 +35,9 @@ build-dev: ## build docker image for local development
 
 .PHONY: install-dependencies
 install-dependencies: ## install dependencies for dev image
-	docker run -it --rm --workdir="$(CONTAINER_APP_FOLDER)" $(DEV_VOLUME) \
+	docker run -it --rm --workdir /app $(DEV_VOLUME) \
 		--platform $(PLATFORM) \
-		$(COMPOSE_PROJECT_NAME) /bin/ash -ci "npm i"
+		$(COMPOSE_PROJECT_NAME) /bin/ash -ci "npm install"
 
 .PHONY: interactive
 interactive: ## get a bash shell in the container

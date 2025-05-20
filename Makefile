@@ -1,4 +1,3 @@
-# Makefile for lilli vending machine package
 # ENV_FILE = $(shell [ -e ".env" ] && echo ".env" || echo ".env.public")
 
 # include $(ENV_FILE)

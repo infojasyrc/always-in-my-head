@@ -5,10 +5,10 @@ pubDate: 'May 21 2025'
 author: 'Jose Sal y Rosas'
 ---
 
-Sentado desde mi lugar favorito del apto,
-pienso en una vela encendida,
-un aroma de cafe titulado:
-<i>"anywhere, anytime you want,"</i>
+Sentado desde mi lugar favorito del apto,<br/>
+pienso en una vela encendida,<br/>
+un aroma de cafe titulado:<br/>
+<i>"anywhere, anytime you want,"</i><br/>
 es un reflejo de lo que siento.
 
 El horizonte muestra una luz entre las nubes,

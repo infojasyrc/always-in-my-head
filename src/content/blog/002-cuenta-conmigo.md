@@ -1,34 +1,38 @@
 ---
 title: 'Cuenta conmigo'
 description: 'La historia de un pensamiento y el deseo de poder acompanarte'
-pubDate: 'May 21 2025'
+pubDate: 'May 22 2025'
 author: 'Jose Sal y Rosas'
 ---
 
-Sentado desde mi lugar favorito del apto,<br/>
+<div align="center">
+
+Sentado desde mi lugar favorito,<br/>
 pienso en una vela encendida,<br/>
-un aroma de cafe titulado:<br/>
-<i>"anywhere, anytime you want,"</i><br/>
-es un reflejo de lo que siento.
+el recuerdo de un vino caliente,<br/>
+y el aroma de cafe titulado:<br/>
+<i>"anywhere, anytime you want"</i><br/>
 
-El horizonte muestra una luz entre las nubes,
-ante pensamientos ocultos,
-la confianza de sentir paz es suave y lenta,
-La lluvia y su energia enaltece colores en el cielo,
-y mi corazon cansado, respira y toma aliento,
+El horizonte muestra una luz entre las nubes,<br/>
+ante pensamientos ocultos,<br/>
+la confianza de sentir paz es suave y lenta,<br/>
+La lluvia y su energia enaltece colores en el cielo,<br/>
+y mi corazon cansado, respira y toma aliento,<br/>
 
-Cierro los ojos, siento la brisa,
-te pienso, te siento,
-quiero q sepas que cuentas conmigo,
-un anhelo ajeno, lejano,
-su sonrisa toca mi alma,
-esa sonrisa que me deslumbra,
-esa sonrisa que me ilusiona,
+Cierro los ojos, siento la brisa,<br/>
+te pienso, te siento,<br/>
+quiero q sepas que cuentas conmigo,<br/>
+un anhelo ajeno, lejano,<br/>
+su sonrisa toca mi alma,<br/>
+esa sonrisa que me deslumbra,<br/>
+esa sonrisa que me ilusiona,<br/>
 
-El horizonte dibuja su rostro,
-la lluvia recorre mi rostro,
-cuenta conmigo,
-suelto, confio, y me aferro al recuerdo,
+Extraño tu voz a la distancia,<br/>
+la lluvia recorre mi rostro,<br/>
+cuenta conmigo,<br/>
+suelto, confio, y me aferro al recuerdo,<br/>
 
-Dios esta contigo,
-Yo solo te pienso,
+Dios esta contigo,<br/>
+cuenta conmigo.<br/>
+
+</div>

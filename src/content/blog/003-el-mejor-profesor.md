@@ -1,6 +1,6 @@
 ---
 title: 'El mejor profesor'
-description: 'Una cancion para mi madre...'
+description: 'Este es un pensamiento para agradecer por todo lo que me enseñaste papa.'
 pubDate: 'May 24 2025'
 author: 'Jose Sal y Rosas'
 ---

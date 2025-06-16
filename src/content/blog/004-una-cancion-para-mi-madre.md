@@ -1,6 +1,6 @@
 ---
-title: 'Una cancion para mi madre'
-description: 'Una cancion para mi madre...'
+title: 'Una canción para mi madre'
+description: 'Una canción para mi madre...'
 pubDate: 'Jun 15 2025'
 author: 'Jose Sal y Rosas'
 ---

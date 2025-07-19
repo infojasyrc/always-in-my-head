@@ -1,6 +1,6 @@
 ---
 title: 'La historia de un casi algo'
-description: 'Un título que describe...'
+description: 'Un título que se auto describe...'
 pubDate: 'Jul 19 2025'
 author: 'Jose Sal y Rosas'
 ---

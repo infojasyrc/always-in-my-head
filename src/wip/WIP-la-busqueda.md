@@ -1,31 +1,30 @@
 ---
-title: 'El propósito'
+title: 'Aprender para enseñar'
 description: 'El propósito es una descubrimiento único'
 pubDate: 'March 19 2026'
 author: 'Jose Sal y Rosas'
 ---
 
-El propósito
+Una crianza como profesor 
 
-Mientras iba manejando, pensaba en lo afortunado de disfrutar mis pasiones 
-Si me conoces sabrás como me gusta la paz, la calma, 
-y estar sentado en el balcón es uno de los mejores momentos, 
+Mientras iba manejando, pensaba en lo afortunado de disfrutar mis pasiones, 
+y de la simpleza de algunos momentos, 
 tomarme una café con un inigualable alfajor argentino, 
-poner mi top de canciones favoritas y si, los detalles me importan, 
-cuando se trata de disfrutar lo que me gusta, le miro `los 10 pies al gato`, 
-que es una expresión de casa que refleja lo minucioso que uno se vuelve al elegir algo, 
-y es que el equipo de música que me acompaña, tiene eso llamado High Fidelity (HF), 
-que en palabras sencillas, es una calidad de sonido espectacular, 
-pero no hay que entusiasmarse tán rápido, 
-los equipos de sonido no hacen la magia por si solos, 
-dependen de algo muy importante: el origen / la fuente, 
-y en este es una plataforma de streaming de High Fidelity, y lo siento, NO es Spotify, 
-y adelantandose a lo que vas a leer a continuación, 
-se trata de una metafora en la vida, 
-la calidad de los datos de las entradas (inputs), tienen una intrínsica con la salida, 
+la calma, alguna canción que acompañe el momento, 
+estar sentado en el balcón y apreciar la ciudad, el mar, su ruído, 
+leer un libro, poner mi canción favorita, 
+como un cliche de una película: ese momento llamado felicidad, 
 
 Disfrutar mis pasiones me hace mas reflexivo, 
-me ayuda a tener instrospectivas de lo que construyo y el objetivo que tiene,
+me ayuda a tener instrospectivas de lo que hago,
+como lo hago y el objetivo que tiene,
+recordar que la crianza de mis padres y mi aprendizaje 
+se baso mucho en el cuestionamiento y preguntar siempre por qué? 
+
+Mi madre fue profesora de Historia y Ciencias Sociales, 
+tenía siempre mucha paciencia y recuerdo siempre tomarme la leccion antes de los examenes, 
+y mi padre siempre me recalco que no siempre tenía que pensar igual que el resto de compañeros, 
+
 me ayuda a buscar la forma de comunicar mejor sin imponer ideas, 
 me ayuda además a escuchar las ideas, opiniones, 
 a pesar de tener una seguridad y experiencia, 

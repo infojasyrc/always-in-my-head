@@ -26,7 +26,7 @@ const posts = (await getCollection('blog')).sort(
 			ul {
 				display: flex;
 				flex-direction: column;
-				align-items: center;
+				align-items: stretch;
 				gap: 2rem;
 				list-style-type: none;
 				margin: 0;
@@ -36,6 +36,7 @@ const posts = (await getCollection('blog')).sort(
 			}
 			ul li {
 				width: 100%;
+				text-align: left;
 			}
 			ul li * {
 				text-decoration: none;
@@ -57,6 +58,7 @@ const posts = (await getCollection('blog')).sort(
 			.date {
 				margin: 0;
 				color: rgb(var(--gray));
+				text-align: left;
 			}
 			ul li a:hover h4,
 			ul li a:hover .date {
@@ -71,13 +73,15 @@ const posts = (await getCollection('blog')).sort(
 				}
 				ul li {
 					width: 100%;
-					text-align: center;
+					text-align: left;
 				}
 				ul li:first-child {
 					margin-bottom: 0;
 				}
-				ul li:first-child .title {
-					font-size: 1.563em;
+			}
+			@media (max-width: 480px) {
+				.title {
+					font-size: 1.25em;
 				}
 			}
 		</style>

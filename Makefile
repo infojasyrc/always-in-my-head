@@ -20,7 +20,8 @@ else
 	DIR := "$$(pwd)"
 endif
 
-.PHONY: docker-clean
+.PHONY: docker-clean build-dev install-dependencies interactive launch build help
+
 docker-clean: ## stop+kill all running containers. prune stopped containers. remove all untagged images
 ifeq ($(OS),Windows_NT)
 	powershell "docker ps -qa | foreach-object {docker kill $$_}; docker container prune --force; docker system prune --force;"
@@ -28,25 +29,21 @@ else
 	docker ps -qa | xargs docker kill; docker container prune --force; docker system prune --force;
 endif
 
-.PHONY: build-dev
 build-dev: ## build docker image for local development
 	docker build --platform $(PLATFORM) --target base \
 		-t $(COMPOSE_PROJECT_NAME) .
 
-.PHONY: install-dependencies
 install-dependencies: ## install dependencies for dev image
 	docker run -it --rm --workdir /app $(DEV_VOLUME) \
 		--platform $(PLATFORM) \
 		$(COMPOSE_PROJECT_NAME) /bin/ash -ci "npm install"
 
-.PHONY: interactive
 interactive: ## get a bash shell in the container
 	docker run -it --rm --workdir /app \
 		--platform $(PLATFORM) \
 		$(DEV_VOLUME) \
 		$(COMPOSE_PROJECT_NAME) /bin/ash
 
-.PHONY: launch
 launch: ## get a bash shell in the container
 	docker run -it --rm --workdir /app \
 		--platform $(PLATFORM) \
@@ -54,14 +51,12 @@ launch: ## get a bash shell in the container
 		-p "4321:4321" \
 		$(COMPOSE_PROJECT_NAME) /bin/ash -ci "npm run dev:container"
 
-.PHONY: build
 build: ## build astro app
 	docker run -it --rm --workdir /app \
 		--platform $(PLATFORM) \
 		$(DEV_VOLUME) \
 		$(COMPOSE_PROJECT_NAME) /bin/ash "npm run build"
 
-.PHONY: help
 help:  ## show all make commands
 ifeq ($(OS),Windows_NT)
 	powershell "((type Makefile) -match '##') -notmatch 'grep'"
